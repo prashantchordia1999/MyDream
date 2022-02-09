@@ -230,6 +230,14 @@ figure {
       width: 100%;
       padding: 0 1em; } }
 
+@media screen and (max-width: 768px)
+{
+  #colorlib-hero {
+    margin-bottom: 0em !important;
+  }
+}
+
+
 #colorlib-hero {
   min-height: 500px;
   width: 100%;
@@ -278,7 +286,7 @@ figure {
     #colorlib-hero .flexslider .slider-text {
       display: table;
       opacity: 0;
-      min-height: 500px;
+      min-height: 700px;
       z-index: 9; }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
         display: table-cell;
@@ -379,8 +387,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 0em;
+  padding-bottom: 5em;
   clear: both;
   width: 100%;
   display: block; }
